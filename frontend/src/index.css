@@ -1,0 +1,108 @@
+
+
+:root {
+  /* Identidad visual: Navidad nocturna */
+  --color-primary: #172A46;
+  --color-secondary: #2E6B5B;
+  --color-accent: #D9C28F;
+
+  /* Superficies */
+  --color-background: #F3F6FA;
+  --color-surface: #FFFFFF;
+  --color-border: #E5EAF0;
+
+  /* Tipografía */
+  --color-text: #172A46;
+  --color-text-secondary: #435168;
+
+  /* Variantes de interfaz */
+  --color-primary-soft: #EAF0F6;
+  --color-secondary-soft: #E8F3EF;
+  --color-accent-soft: #F7F2E7;
+  --color-neutral-soft: #EEF1F5;
+
+  /* Menú lateral */
+  --color-sidebar-muted: #AAB8CC;
+  --color-sidebar-text: #D9E2EF;
+
+  /* Estados financieros */
+  --color-success: #25835E;
+  --color-success-soft: #E8F6EF;
+
+  --color-warning: #9B701E;
+  --color-warning-soft: #FFF5DF;
+
+  --color-danger: #BB5145;
+  --color-danger-soft: #FFF0ED;
+
+  /* Gráficos */
+  --color-chart-income: #2E6B5B;
+  --color-chart-expense: #D9C28F;
+  --color-chart-balance: #172A46;
+
+  /* Categorías de gráficos */
+  --color-chart-category-1: #2E6B5B;
+  --color-chart-category-2: #172A46;
+  --color-chart-category-3: #D9C28F;
+  --color-chart-category-4: #7D9BB0;
+  --color-chart-category-5: #8BAF9F;
+  --color-chart-category-6: #B98570;
+  --color-chart-category-7: #9B91B8;
+  --color-chart-category-8: #8793A3;
+
+  /* Elementos auxiliares de gráficos */
+  --color-chart-grid: #E5EAF0;
+  --color-chart-label: #435168;
+  --color-chart-cursor: #EAF0F6;
+
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+select:focus-visible {
+  outline: 3px solid rgba(217, 194, 143, 0.65);
+  outline-offset: 2px;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+a {
+  color: inherit;
+}
+

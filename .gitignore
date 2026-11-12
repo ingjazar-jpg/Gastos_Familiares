@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Variables y credenciales
+.env
+.env.*
+!.env.example
+
+# Datos locales
+datos/*.json
+datos/*.db
+datos/*.sqlite
+datos/*.sqlite3
+
+# Node.js y React
+node_modules/
+frontend/dist/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales y respaldos
+*.log
+*.bak
+*.tmp
+
+# Copias de respaldo del frontend
+*.backup
